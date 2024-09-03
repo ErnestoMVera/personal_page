@@ -1,0 +1,125 @@
+p {
+	text-align: justify;
+}
+td {
+	text-align: top;
+	vertical-align: center;
+	padding: 1px;
+}
+td img {
+	display: block;
+	text-align: center;
+	vertical-align: center;
+	padding: 1em;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+}
+.navbar-right div {
+	display: flex;
+	float: right;
+}
+.navbar-right a {
+	padding: 1em;
+	display: inline;
+	font-size: 18px;
+	background: transparent;
+}
+.navbar-right a {
+	padding: 1em;
+	display: inline;
+	font-size: 18px;
+	color: black;
+	background: transparent;
+}
+.navbar-right a:hover {
+	font-weight: bold;
+	opacity: 100%;
+}
+.nombre {
+	text-align: left;
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline;
+}
+.nav-wrapper {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	top: 0;
+	background:#ffffff;
+	float: right;
+	position: fixed;
+	display: inline;
+	width: 100%;
+}
+.stripe {
+	height: 40%;
+	background: linear-gradient(-180deg, #006347 12%, #FFFFFF 6% 18%, #C8102E 12% 30%, #FFFFFF 30% 30%);
+	display: flex;
+}
+.stripe-title {
+	display: flex;
+	padding: 0px;
+	height: 40%;
+	justify-content:left;
+	background: linear-gradient(-180deg, #FFFFFF 12%, #C8102E 12% 24%, #FFFFFF 12% 30%, #FFFFFF 30% 30%);
+}
+.stripe-title p {
+	font-weight: bold;
+	font-size: 24px;
+	padding-left: 0.5em;
+}
+.navbar-logo {
+	background: transparent;
+	line-height: 1;
+	width: 240px;
+	padding-top:10px;
+	margin-right: 5px;
+	position: relative;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 40px;
+}
+.navbar-logo::before {
+	background:#ffffff;
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:1px;
+	left:0;
+	bottom:0;
+}
+.navbar-right {
+	float: right;
+}
+.tags span {
+	font-size: 14px;
+	display: inline-block;
+}
+span::before {
+	content: "·";
+}
+figcaption {
+	word-wrap: break-word;
+	width: 400px;
+	text-align: center;
+}
+.big_title {
+	float: center;
+	padding: 1em;
+	margin-top: 175px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 28px;
+	display: flex;
+	align-items: center;
+}
+html {
+	scroll-behavior: smooth;
+}
