@@ -17,7 +17,7 @@
 					<a href = "#page1" style = "text-decoration:none;">Home</a>
 					<a href = "#page2" style = "text-decoration:none;">About</a>
 					<a href = "#page3" style = "text-decoration:none;">Projects</a>
-					<a>Contact</a>
+					<a href = "#page4" style = "text-decoration:none;">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -42,7 +42,7 @@
 			</figure>
 		</td>
 		<td class = "big_title">
-			I am an enthusiast of all sort of intersting things like algorithms, computer hardware development, sensors and automobile technology. I mostly do hardware software integration.
+			I am an enthusiast of all sort of interesting things like algorithms, computer hardware development, sensors and automobile technology. I mostly do hardware software integration.
 		</td>
 	</tr>
 </table>
@@ -99,6 +99,81 @@
 	<div class = "stripe-title">
 		<p>Projects</p>
 	</div>
+	<table>
+		<tr>
+			<td class = "project-title" colspan = 2>Fast Fourier Transform (FFT) signal analyzer and image compression tool</td>
+		</tr>
+		<tr>
+			<td>
+				<img 
+					src = "images/lena.png"
+					alt = "lena image for testing"
+					width = "256"
+					height = "256"/>
+			</td>
+			<td style = "vertical-align: top; padding: 1em;">My own implementation of the Fast Fourier Transform ready to be applied on signals for further analysis or as an image compression tool which works based on the concept of energy conservation on signals stated in the Parseval's Theorem. This principle serves as the basis of one of the key components of the JPEG compression format which is the most common compression format for photos.<br><br>This project is written in C++ using only the standard library and a make build system, as well as several tests scripts. The code can be found in the <a href = https://github.com/ErnestoMVera/FFT_Compressor>github repo</a> and you can see the technical details and results of the project <a href = "FFT">here</a>.</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td class = "project-title" colspan = 2>On-road video classifier</td>
+		</tr>
+		<tr>
+			<td>
+				<img 
+					src = "images/footage_onroadvideo.png"
+					alt = "ejemplo classifier"
+					width = "624"
+					height = "351"/>
+			</td>
+			<td style = "vertical-align: top; padding: 1em;">A tool for a human to classify <i>visual attention points</i> (such as looking to the road, right, left or lap) manually by looking at a video footage of an on-road driving test conducted for my master's thesis.<br><br>The project is written in C++ and depends on the OpenCV and Tesseract OCR libraries. The project is build using a CMake build system and currently only tested for linux x86. The code is available in the <a href = https://github.com/ErnestoMVera/RoadTestVPoAClassifier>github repo</a>. Learn more <a href = "VideoClassifier">here</a>.</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td class = "project-title" colspan = 2>Learning OpenGL for C++</td>
+		</tr>
+		<tr>
+			<td>
+				<img 
+					src = "images/learning_opengl.png"
+					alt = "ejemplo classifier"
+					width = "400"
+					height = "317.5"/>
+			</td>
+			<td style = "vertical-align: top; padding: 1em;">I started learning OpenGL through the book <i> Learn OpenGL - Graphics Programming</i> by Joey de Vries. I'm following the book doing the exercises at the end of each chapter, everytime I end a chapter I published them in my github, you can follow the progress there.<br><br>My goal is eventually do a project involving OpenGL graphics, maybe a signal plotter or some kind of videogame...</td>
+		</tr>
+	</table>
 </div>
+<div id = "page4">
+	<div class = "stripe-title">
+		<p>Contact me!</p>
+	</div>
+	<table>
+		<tr>
+			<td>
+				<figure>
+				<img 
+					src = "images/ernestos_card.png"
+					alt = "tarjeta de contacto"
+					width = "499"
+					height = "335"/>
+				</figure>
+			</td>
+			<td class = "contact">
+				Get in touch via my social media and e-mail.
+			</td>
+		</tr>
+	</table>
+</div>
+<footer>
+	<p>©2024</p>
+	<a>
+		Logo!
+	</a>
+	<a href="./privacyPolicy.html">
+		Privacy Policy
+	</a>
+</footer>
 </body>
 </html>
